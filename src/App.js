@@ -4,6 +4,9 @@ import Main from './Components/Layout/Main';
 import Home from './Components/Home';
 import Login from './Components/Login';
 import Register from './Components/Register';
+import PrivateRoute from './routers/PrivateRoute';
+import Service from './Components/Service';
+
 
 function App() {
   const router=createBrowserRouter([
@@ -14,6 +17,11 @@ function App() {
         {
           path:"/",
           element:<Home></Home>
+        },
+
+        {
+          path:"/service",
+          element:<PrivateRoute><Service></Service></PrivateRoute>
         },
         {
           path:"/login",

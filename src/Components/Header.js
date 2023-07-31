@@ -17,6 +17,7 @@ const Header = () => {
         <div>
         <Link className="btn btn-ghost normal-case text-2xl" to={"/"}>AuthCoder</Link>
         <Link className="btn btn-ghost normal-case text-xl" to={"/"}>Home</Link>
+        <Link className="btn btn-ghost normal-case text-xl" to={"/service"}>Service</Link>
         <Link className="btn btn-ghost normal-case text-xl" to={"/login"}>Login</Link>
         <Link className="btn btn-ghost normal-case text-xl" to={"/register"}>Register</Link>
         </div>
