@@ -21,7 +21,8 @@ function App() {
         },
         {
           path:"/register",
-          element:<Register></Register>
+          element:<Register></Register>,
+          
         }
       ]
     }

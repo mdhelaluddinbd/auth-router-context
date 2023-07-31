@@ -60,10 +60,8 @@ const Register = () => {
                   required
                 />
                 <label className="label">
-                  <span  className="label-text-alt ">
-                    Already have and account?
-                  </span>
-                  <Link className="link link-primary" to={"/login"}>Login</Link>
+                  
+                  <Link className="link link-primary" to={"/login"}> Already have an account?</Link>
                 </label>
               </div>
               <div className="form-control mt-6">
